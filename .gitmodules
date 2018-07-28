@@ -1,1 +1,4 @@
 
+[submodule "market/contracts"]
+	path = market/contracts
+	url = git@github.com:LootSafe/lootsafe.marketplace.contracts.git

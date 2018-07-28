@@ -1,12 +1,16 @@
 import json
 import web3
+import configparser
 
 from web3 import Web3, HTTPProvider, TestRPCProvider
 from solc import compile_source
-from web3.contract import ConciseContract
+
+config = configparser.ConfigParser()
+config.read('market/config.ini')
 
 # TODO: add this to a config
-w3 = Web3(HTTPProvider("http://localhost:8545"))
+w3 = Web3(HTTPProvider(config.get('NETWORK', 'RPC_ADDRESS')))
+
 
 class MarketModel:
     def __init__(self, contract_address):

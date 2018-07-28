@@ -6,7 +6,7 @@ import configparser
 config = configparser.ConfigParser()
 config.read("market/config.ini")
 
-market_address = config.get("DEFAULT", "MARKET_ADDRESS")
+rpc_address = config.get("NETWORK", "RPC_ADDRESS")
 
 class MetaResource(object):
     def on_get(self, req, resp):
@@ -14,8 +14,8 @@ class MetaResource(object):
 
 
         doc = {
-            "addresses": {
-                "market": market_address
+            "network": {
+                "rpc_address": rpc_address
             }
         }
 
