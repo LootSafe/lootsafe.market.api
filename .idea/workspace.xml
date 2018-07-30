@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65bceb3f-7df4-4c03-adab-c244eee786f5" name="Default" comment="n">
-      <change afterPath="$PROJECT_DIR$/cacher/cacher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cacher/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cacher/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/resources/market/get_listings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start_cacher.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lootsafe.market.api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lootsafe.market.api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cacher/watch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/market/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/contracts" beforeDir="false" afterPath="$PROJECT_DIR$/market/contracts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/contracts/contracts/Market.sol" beforeDir="false" afterPath="$PROJECT_DIR$/market/contracts/contracts/Market.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/contracts/contracts/lib/MarketEvents.sol" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/market/contracts/migrations/2_deploy_contracts.js" beforeDir="false" afterPath="$PROJECT_DIR$/market/contracts/migrations/2_deploy_contracts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/models/Market.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/models/Market.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/resources/market/get_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/resources/market/get_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/resources/meta/meta.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/resources/meta/meta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/resources/vault/get_vault.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/resources/vault/get_vault.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/deploy.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/populate.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +44,7 @@
           <entry key="gitignore" value="22" />
           <entry key="ini" value="162" />
           <entry key="js" value="3669" />
+          <entry key="md" value="808" />
           <entry key="py" value="2968" />
           <entry key="sh" value="94" />
           <entry key="sol" value="266" />
@@ -73,6 +55,7 @@
         <counts>
           <entry key="Ini" value="162" />
           <entry key="JavaScript" value="3669" />
+          <entry key="Markdown" value="808" />
           <entry key="PLAIN_TEXT" value="118" />
           <entry key="Python" value="2968" />
           <entry key="Solidity file" value="266" />
@@ -84,6 +67,7 @@
           <entry key="ini" value="1" />
           <entry key="js" value="7" />
           <entry key="json" value="4" />
+          <entry key="md" value="1" />
           <entry key="py" value="12" />
           <entry key="sh" value="2" />
           <entry key="sol" value="6" />
@@ -95,6 +79,7 @@
           <entry key="Ini" value="1" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="7" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="12" />
           <entry key="Solidity file" value="6" />
@@ -199,11 +184,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="395">
+                <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -236,7 +233,6 @@
         <option value="$PROJECT_DIR$/tools/populate_dev.js" />
         <option value="$PROJECT_DIR$/cacher/watch.py" />
         <option value="$PROJECT_DIR$/tools/deploy.sh" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tools/populate.py" />
         <option value="$PROJECT_DIR$/market/contracts/truffle.js" />
         <option value="$PROJECT_DIR$/market/contracts/test/1_market_test.js" />
@@ -257,6 +253,7 @@
         <option value="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" />
         <option value="$PROJECT_DIR$/market/models/Market.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -395,7 +392,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.28941908" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.41701245" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" weight="0.28761062" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32923833" />
@@ -453,16 +450,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/market/contracts/truffle-config.js" />
     <entry file="file://$PROJECT_DIR$/tools/populate_dev.js" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cacher/watch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -688,6 +675,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="395">
+            <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
