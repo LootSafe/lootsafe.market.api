@@ -8,10 +8,10 @@ config.read("market/config.ini")
 
 rpc_address = config.get("NETWORK", "RPC_ADDRESS")
 
+
 class MetaResource(object):
     def on_get(self, req, resp):
         user = None
-
 
         doc = {
             "network": {

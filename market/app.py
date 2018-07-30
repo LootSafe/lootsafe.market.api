@@ -5,6 +5,8 @@ from market.resources.meta.meta import MetaResource
 
 # Market imports
 from market.resources.market.get_base import GetBaseResource
+from market.resources.market.get_listings import GetListingsResource
+from market.resources.market.get_filtered_listings import GetFilteredListingsResource
 
 # Vault imports
 from market.resources.vault.get_vault import GetVaultResource
@@ -13,7 +15,12 @@ from market.resources.vault.get_vault import GetVaultResource
 api = application = falcon.API()
 
 # Routes
-api.add_route("/meta", MetaResource())
+api.add_route('/meta', MetaResource())
 
-api.add_route("/market/base", GetBaseResource())
-api.add_route("/vault/get", GetVaultResource())
+# Market
+api.add_route('/market/base', GetBaseResource())
+api.add_route('/market/listings', GetListingsResource())
+api.add_route('/market/listings/filtered', GetFilteredListingsResource())
+# Vault
+api.add_route('/vault/get', GetVaultResource())
+

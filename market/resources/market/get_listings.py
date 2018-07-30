@@ -4,14 +4,15 @@ import json
 from market.models.Market import MarketModel
 
 
-class GetBaseResource(object):
+class GetListingsResource(object):
     def on_get(self, req, resp):
+
         market = MarketModel()
-        base = market.get_base_pair()
+        listings = market.get_listings()
 
         doc = {
-            'message': 'Base pair fetched.',
-            'data': base
+            "message": "Listings fetched.",
+            "data": listings
         }
 
         resp.body = json.dumps(doc)

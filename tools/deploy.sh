@@ -1,1 +1,0 @@
-cd market/contracts
