@@ -1,7 +1,7 @@
 import json
 import configparser
 import pymongo
-
+import time
 from web3 import Web3, HTTPProvider
 
 config = configparser.ConfigParser()
@@ -59,3 +59,21 @@ class MarketModel:
         merchant - address of the merchant to search on
         """
         return self.contract.call().vaults(merchant)
+
+    @staticmethod
+    def get_daily_volume():
+        """ Get 24 hour transaction volume """
+        listings_table = db['listings']
+        listings = listings_table.find({
+            'fulfilled_at': {
+                '$gte': time.time() - 86400
+            },
+            'status': 1
+        })
+
+        volume = 0
+        for listing in listings:
+            print(listing)
+            volume += listing.get('value')
+
+        return volume

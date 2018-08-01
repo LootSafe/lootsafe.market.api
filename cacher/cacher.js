@@ -12,7 +12,8 @@ const ListingSchema = new mongoose.Schema({
     asset: String,
     amount: Number,
     value: Number,
-    status: Number
+    status: Number,
+    fulfilled_at: Number
 });
 const ListingModel = mongoose.model('Listing', ListingSchema);
 
@@ -58,9 +59,15 @@ const scan = () => {
                             value: parseFloat(Listing.value),
                             status: parseInt(Listing.status)
                         }
+                        if (Listing.status == 1) {
+                            const block = await web3.eth.getBlock(events[index].blockNumber)
+                            listing.fulfilled_at = block.timestamp
+                        }
+
                         ListingModel.findOne({ id: listing.id }, (err, ls) => {
                             if (ls) {
                                 ls.status = listing.status
+                                ls.fulfilled_at = listing.fulfilled_at
                                 ls.save()
                             } else {
                                 const listing_save = new ListingModel(listing)
