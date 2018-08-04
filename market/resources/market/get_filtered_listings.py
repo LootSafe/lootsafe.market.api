@@ -6,43 +6,52 @@ from market.models.Market import MarketModel
 
 class GetFilteredListingsResource(object):
     def on_post(self, req, resp):
-        market = MarketModel()
         body = json.loads(req.stream.read())
 
         find_filter = {}
 
-        if 'merchant' in body:
-            find_filter['merchant'] = body.get('merchant')
+        if 'market_address' in body:
+            market = MarketModel(contract_address=body.get('market_address'))
 
-        if 'asset' in body:
-            find_filter['asset'] = body.get('asset')
+            if 'merchant' in body:
+                find_filter['merchant'] = body.get('merchant')
 
-        if 'amount' in body:
-            find_filter['amount'] = body.get('amount')
+            if 'asset' in body:
+                find_filter['asset'] = body.get('asset')
 
-        if 'status' in body:
-            find_filter['status'] = body.get('status')
+            if 'amount' in body:
+                find_filter['amount'] = body.get('amount')
 
-        if 'value' in body:
-            find_filter['value'] = body.get('value')
+            if 'status' in body:
+                find_filter['status'] = body.get('status')
 
-        sort_by = 'date'
-        order = 'ascending'
+            if 'value' in body:
+                find_filter['value'] = body.get('value')
 
-        if 'sort_by' in body and 'order' in body:
-            sort_by = body.get('sort_by')
-            order = body.get('order')
+            sort_by = 'date'
+            order = 'ascending'
+
+            if 'sort_by' in body and 'order' in body:
+                sort_by = body.get('sort_by')
+                order = body.get('order')
 
 
-        if 'limit' in body:
-            listings = market.get_listings_filtered(find_filter, body.get('limit'), sort_by, order)
+            if 'limit' in body:
+                listings = market.get_listings_filtered(find_filter, body.get('limit'), sort_by, order)
+            else:
+                listings = market.get_listings_filtered(find_filter)
+
+            doc = {
+                'message': 'Listings fetched.',
+                'data': listings
+            }
+
+            resp.body = json.dumps(doc)
+            resp.status = falcon.HTTP_200
+
         else:
-            listings = market.get_listings_filtered(find_filter)
-
-        doc = {
-            'message': 'Listings fetched.',
-            'data': listings
-        }
-
-        resp.body = json.dumps(doc)
-        resp.status = falcon.HTTP_200
+            doc = {
+                'message': 'Missing market address!'
+            }
+            resp.body = json.dumps(doc)
+            resp.status = falcon.HTTP_404
