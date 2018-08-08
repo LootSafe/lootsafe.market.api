@@ -35,7 +35,6 @@ class GetFilteredListingsResource(object):
                 sort_by = body.get('sort_by')
                 order = body.get('order')
 
-
             if 'limit' in body:
                 listings = market.get_listings_filtered(find_filter, body.get('limit'), sort_by, order)
             else:

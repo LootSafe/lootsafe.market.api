@@ -24,6 +24,13 @@ class MarketModel:
 
     @staticmethod
     def register_market(name, address, token_type):
+        """ Register a market in the system
+
+        Keyword Arguments:
+        name - Name of the marketplace
+        address - Address of the marketplace
+        token_type - Type of tokens traded on the system (e.g. ERC20)
+        """
         markets_table = db['markets']
         market = markets_table.find_one({'address': address})
         if market is not None:
@@ -44,6 +51,13 @@ class MarketModel:
             i['_id'] = str(item.get('_id'))
             c.append(i)
         return c
+
+    def get_markets(self):
+        """ Get all markets """
+        markets_table = db['markets']
+        markets = markets_table.find()
+        print(markets)
+        return self.clean(markets)
 
     def get_listings(self):
         """ Get all listings """
