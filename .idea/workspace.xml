@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65bceb3f-7df4-4c03-adab-c244eee786f5" name="Default" comment="n">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/core_contracts" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/contracts/Market.sol" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/contracts/Market.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/models/Market.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/models/Market.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/core_contracts/contracts/lib/Cellar.sol" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/contracts/lib/Cellar.sol" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
           <entry key="gitmodules" value="5" />
           <entry key="ini" value="204" />
           <entry key="js" value="5629" />
-          <entry key="md" value="1063" />
+          <entry key="md" value="1150" />
           <entry key="py" value="5541" />
           <entry key="sh" value="94" />
           <entry key="sol" value="1326" />
@@ -63,7 +62,7 @@
         <counts>
           <entry key="Ini" value="204" />
           <entry key="JavaScript" value="5629" />
-          <entry key="Markdown" value="1063" />
+          <entry key="Markdown" value="1150" />
           <entry key="PLAIN_TEXT" value="123" />
           <entry key="Python" value="5541" />
           <entry key="Solidity file" value="1326" />
@@ -76,7 +75,7 @@
           <entry key="ini" value="3" />
           <entry key="js" value="10" />
           <entry key="json" value="5" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="py" value="21" />
           <entry key="sh" value="2" />
           <entry key="sol" value="17" />
@@ -88,7 +87,7 @@
           <entry key="Ini" value="3" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="10" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="21" />
           <entry key="Solidity file" value="17" />
@@ -107,18 +106,6 @@
                 <element signature="e#0#11#0" expanded="true" />
                 <marker date="1533433257089" expanded="true" signature="1479:1485" ph="..." />
                 <marker date="1533433257089" expanded="true" signature="1518:1861" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/resources/market/get_listings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,11 +132,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/lib/Cellar.sol">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
               <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="402">
+                <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -217,7 +216,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/market/core_contracts" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -242,7 +241,6 @@
         <option value="$PROJECT_DIR$/scripts/start_cacher.sh" />
         <option value="$PROJECT_DIR$/market/resources/vault/get_vault.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/market/resources/market/get_daily_volume.py" />
         <option value="$PROJECT_DIR$/.gitmodules" />
         <option value="$PROJECT_DIR$/cacher/modules/token_typefinder.js" />
@@ -261,6 +259,7 @@
         <option value="$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol" />
         <option value="$PROJECT_DIR$/market/core_contracts/contracts/Market.sol" />
         <option value="$PROJECT_DIR$/market/core_contracts/contracts/lib/Cellar.sol" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -296,56 +295,6 @@
             <path>
               <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
               <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
-              <item name="cacher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="core_contracts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="core_contracts" type="462c0819:PsiDirectoryNode" />
-              <item name="contracts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="core_contracts" type="462c0819:PsiDirectoryNode" />
-              <item name="contracts" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -404,7 +353,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16544567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16544567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,7 +365,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.3713693" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.3713693" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" weight="0.28761062" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32923833" />
@@ -529,16 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
-            <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -696,6 +635,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="402">
+            <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
