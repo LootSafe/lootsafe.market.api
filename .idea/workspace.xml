@@ -87,7 +87,7 @@
           <entry key="js" value="15" />
           <entry key="json" value="5" />
           <entry key="md" value="3" />
-          <entry key="py" value="22" />
+          <entry key="py" value="24" />
           <entry key="sh" value="2" />
           <entry key="sol" value="17" />
           <entry key="txt" value="1" />
@@ -100,7 +100,7 @@
           <entry key="JavaScript" value="15" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="22" />
+          <entry key="Python" value="24" />
           <entry key="Solidity file" value="17" />
         </counts>
       </usages-collector>
@@ -108,20 +108,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Migrations.sol">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1128">
-              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/core_contracts/truffle.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,14 +129,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/resources/market/new_market.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="288">
+              <caret line="12" column="31" selection-start-line="12" selection-end-line="13" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/resources/market/get_filtered_listings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/market/resources/vault/get_vault.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -244,17 +251,14 @@
         <option value="$PROJECT_DIR$/market/cache.py" />
         <option value="$PROJECT_DIR$/market/cacher/cacher.js" />
         <option value="$PROJECT_DIR$/scripts/start_cacher.sh" />
-        <option value="$PROJECT_DIR$/market/resources/vault/get_vault.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/market/resources/market/get_daily_volume.py" />
         <option value="$PROJECT_DIR$/.gitmodules" />
         <option value="$PROJECT_DIR$/cacher/modules/token_typefinder.js" />
         <option value="$PROJECT_DIR$/cacher/db/models.js" />
-        <option value="$PROJECT_DIR$/market/resources/market/new_market.py" />
         <option value="$PROJECT_DIR$/cacher/cacher.js" />
         <option value="$PROJECT_DIR$/market/resources/market/get_listings.py" />
         <option value="$PROJECT_DIR$/market/resources/market/get_base.py" />
-        <option value="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" />
         <option value="$PROJECT_DIR$/market/resources/market/get_markets.py" />
         <option value="$PROJECT_DIR$/market/models/Market.py" />
         <option value="$PROJECT_DIR$/market/core_contracts/contracts/lib/SafeMath.sol" />
@@ -268,6 +272,9 @@
         <option value="$PROJECT_DIR$/market/core_contracts/migrations/2_deploy_contracts.js" />
         <option value="$PROJECT_DIR$/market/core_contracts/truffle.js" />
         <option value="$PROJECT_DIR$/market/config.ini" />
+        <option value="$PROJECT_DIR$/market/resources/market/new_market.py" />
+        <option value="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" />
+        <option value="$PROJECT_DIR$/market/resources/vault/get_vault.py" />
       </list>
     </option>
   </component>
@@ -333,6 +340,13 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="market" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="vault" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -390,7 +404,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16910867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16910867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -402,7 +416,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.17323652" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.17323652" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" weight="0.28761062" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32923833" />
@@ -503,13 +517,6 @@
     <entry file="file://$PROJECT_DIR$/.gitmodules">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/resources/vault/get_vault.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cacher/modules/token_typefinder.js" />
     <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Vaults/ERC20Vault.sol" />
     <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/VaultInterface.sol" />
@@ -563,13 +570,6 @@
             <marker date="1533433257089" expanded="true" signature="1479:1485" ph="..." />
             <marker date="1533433257089" expanded="true" signature="1518:1861" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/resources/market/get_filtered_listings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -684,11 +684,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/market/resources/market/new_market.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        <state relative-caret-position="288">
+          <caret line="12" column="31" selection-start-line="12" selection-end-line="13" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/resources/market/get_filtered_listings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/resources/vault/get_vault.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
