@@ -10,7 +10,7 @@ config.read('market/config.ini')
 class NewMarketResource(object):
     def on_post(self, req, resp):
         market = MarketModel()
-        body = json.loads(req.json())
+        body = json.loads(req.stream.json())
 
         new_market = None
 

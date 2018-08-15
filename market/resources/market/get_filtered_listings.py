@@ -6,7 +6,7 @@ from market.models.Market import MarketModel
 
 class GetFilteredListingsResource(object):
     def on_post(self, req, resp):
-        body = json.loads(req.json())
+        body = json.loads(req.stream.json())
 
         find_filter = {}
 
