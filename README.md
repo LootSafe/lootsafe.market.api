@@ -37,4 +37,6 @@ contracts/lib/Cellar.sol `3479c87b345a616bd64df157520402b64ecea254`<br />
 contracts/lib/EIP20.sol `f74bcd48457fa08f890beb394b3dd5009b4a026a`<br />
 contracts/lib/EIP20Interface.sol `3daf1c7e479a85f6a1b3e230429f568c081e4bcd`
 
-Full Audit [LootSafe Smart Contract Audit v1.0.pdf](https://github.com/LootSafe/lootsafe.market.api/blob/master/docs/LootSafe%20Smart%20Contract%20Audit%20v1.0.pdf)
+Full Audit [LootSafe Smart Contract Audit v1.0.pdf](https://github.com/LootSafe/lootsafe.market.api/blob/master/docs/LootSafe%20Smart%20Contract%20Audit%20v1.0.pdf
+
+Concerns addressed in `238ac40e66f8a17fa0a17c2a24060ddbe3559b10`
