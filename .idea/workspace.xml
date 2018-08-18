@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65bceb3f-7df4-4c03-adab-c244eee786f5" name="Default" comment="n">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cacher/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/cacher/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/market/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/build/contracts/Cellar.json" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/build/contracts/Cellar.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/build/contracts/EIP20.json" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/build/contracts/EIP20.json" afterDir="false" />
@@ -16,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/market/core_contracts/build/contracts/Vault.json" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/build/contracts/Vault.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/migrations/2_deploy_contracts.js" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/migrations/2_deploy_contracts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/core_contracts/test/1_market_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/test/1_market_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/truffle-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/truffle.js" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/truffle.js" afterDir="false" />
     </list>
@@ -43,9 +40,9 @@
     <session id="-385170621">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="2" />
@@ -53,7 +50,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -61,7 +58,7 @@
           <entry key="gitignore" value="22" />
           <entry key="gitmodules" value="5" />
           <entry key="ini" value="205" />
-          <entry key="js" value="5635" />
+          <entry key="js" value="5784" />
           <entry key="md" value="1176" />
           <entry key="py" value="5546" />
           <entry key="sh" value="94" />
@@ -72,7 +69,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="205" />
-          <entry key="JavaScript" value="5635" />
+          <entry key="JavaScript" value="5784" />
           <entry key="Markdown" value="1176" />
           <entry key="PLAIN_TEXT" value="123" />
           <entry key="Python" value="5546" />
@@ -84,12 +81,12 @@
           <entry key="gitignore" value="1" />
           <entry key="gitmodules" value="1" />
           <entry key="ini" value="5" />
-          <entry key="js" value="15" />
+          <entry key="js" value="20" />
           <entry key="json" value="5" />
           <entry key="md" value="3" />
           <entry key="py" value="31" />
           <entry key="sh" value="2" />
-          <entry key="sol" value="17" />
+          <entry key="sol" value="21" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -97,11 +94,11 @@
         <counts>
           <entry key="Ini" value="5" />
           <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="15" />
+          <entry key="JavaScript" value="20" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="31" />
-          <entry key="Solidity file" value="17" />
+          <entry key="Solidity file" value="21" />
         </counts>
       </usages-collector>
     </session>
@@ -109,37 +106,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/resources/market/new_market.py">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/truffle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="39" selection-start-line="12" selection-end-line="13" />
+            <state relative-caret-position="408">
+              <caret line="29" column="9" selection-start-line="28" selection-start-column="27" selection-end-line="29" selection-end-column="9" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/resources/market/get_markets.py">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/resources/market/get_listings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2136">
+              <caret line="89" column="24" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -147,68 +129,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="59" />
+            <state relative-caret-position="288">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/app.py">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/truffle-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/resources/market/get_filtered_listings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="384">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="24" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/resources/market/get_base.py">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/migrations/2_deploy_contracts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/resources/meta/meta.py">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/test/1_market_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="2064">
+              <caret line="86" column="44" selection-start-line="86" selection-end-line="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/resources/market/get_daily_volume.py">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/test/0_vault_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="1176">
+              <caret line="49" column="45" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Market.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1848">
+              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/market/resources/vault/get_vault.py">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/lib/EIP20.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="88">
+              <caret line="4" column="16" selection-start-line="4" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/lib/SafeMath.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -229,10 +217,11 @@
       <find>EIP20</find>
       <find>owner</find>
       <find>multiauth</find>
+      <find>balanceOf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/market/core_contracts" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -271,14 +260,15 @@
         <option value="$PROJECT_DIR$/market/core_contracts/contracts/lib/Cellar.sol" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol" />
-        <option value="$PROJECT_DIR$/market/core_contracts/truffle-config.js" />
-        <option value="$PROJECT_DIR$/market/core_contracts/migrations/2_deploy_contracts.js" />
-        <option value="$PROJECT_DIR$/market/core_contracts/truffle.js" />
         <option value="$PROJECT_DIR$/market/config.ini" />
         <option value="$PROJECT_DIR$/market/app.py" />
         <option value="$PROJECT_DIR$/market/resources/market/new_market.py" />
         <option value="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" />
         <option value="$PROJECT_DIR$/market/resources/vault/get_vault.py" />
+        <option value="$PROJECT_DIR$/market/core_contracts/truffle-config.js" />
+        <option value="$PROJECT_DIR$/market/core_contracts/truffle.js" />
+        <option value="$PROJECT_DIR$/market/core_contracts/migrations/2_deploy_contracts.js" />
+        <option value="$PROJECT_DIR$/market/core_contracts/test/1_market_test.js" />
       </list>
     </option>
   </component>
@@ -308,6 +298,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,40 +320,34 @@
               <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
               <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
               <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="core_contracts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
               <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
               <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="core_contracts" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
               <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
               <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="core_contracts" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
               <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
               <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="meta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
-              <item name="market" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="vault" type="462c0819:PsiDirectoryNode" />
+              <item name="core_contracts" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,9 +398,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16910867" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17094018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -427,7 +411,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.17323652" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.36307055" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" weight="0.28761062" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32923833" />
@@ -468,8 +452,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/market/contracts/contracts/Migrations.sol" />
-    <entry file="file://$PROJECT_DIR$/market/contracts/contracts/Vault.sol" />
     <entry file="file://$PROJECT_DIR$/market/contracts/test/1_market_test.js" />
     <entry file="file://$PROJECT_DIR$/market/contracts/test/0_vault_test.js" />
     <entry file="file://$PROJECT_DIR$/market/contracts/contracts/lib/MarketEvents.sol" />
@@ -540,18 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1533433257089" expanded="true" signature="1479:1485" ph="..." />
-            <marker date="1533433257089" expanded="true" signature="1518:1861" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Market.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -572,39 +542,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/lib/SafeMath.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/lib/EIP20.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="16" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Migrations.sol">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/core_contracts/truffle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cacher/cacher.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -613,25 +552,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/core_contracts/truffle-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/market/core_contracts/migrations/1_initial_migration.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/core_contracts/migrations/2_deploy_contracts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="91" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/market/core_contracts/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -646,13 +568,6 @@
     <entry file="file://$PROJECT_DIR$/market/resources/market/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/market/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -664,9 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="12" column="39" selection-start-line="12" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,6 +628,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/truffle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="9" selection-start-line="28" selection-start-column="27" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2136">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/truffle-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/migrations/2_deploy_contracts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/test/1_market_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2064">
+          <caret line="86" column="44" selection-start-line="86" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/test/0_vault_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Market.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/lib/SafeMath.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/lib/EIP20.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
