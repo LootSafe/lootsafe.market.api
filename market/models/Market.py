@@ -10,7 +10,6 @@ config.read('market/config.ini')
 client = pymongo.MongoClient(config.get('DB', 'DB_URI'))
 db = client[config.get('DB', 'DB')]
 
-# Connect to HTTPProvider (NOTE: wss broken)
 w3 = Web3(HTTPProvider(config.get('NETWORK', 'RPC_ADDRESS')))
 
 
@@ -56,7 +55,6 @@ class MarketModel:
         """ Get all markets """
         markets_table = db['markets']
         markets = markets_table.find()
-        print(markets)
         return self.clean(markets)
 
     def get_listings(self):
@@ -104,7 +102,6 @@ class MarketModel:
 
         volume = 0
         for listing in listings:
-            print(listing)
             volume += listing.get('value')
 
         return volume

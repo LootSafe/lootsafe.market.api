@@ -1,5 +1,7 @@
 import falcon
+import chalk
 from falcon.http_status import HTTPStatus
+from market.models.Cacher import CacherModel
 
 class HandleCORS(object):
     def process_request(self, req, resp):
@@ -23,8 +25,13 @@ from market.resources.market.get_markets import GetMarketsResource
 # Vault imports
 from market.resources.vault.get_vault import GetVaultResource
 
+
+class ResponseLoggerMiddleware(object):
+    def process_response(self, req, resp, resource, req_succeeded):
+        print(chalk.green(req.method) + ' ' + chalk.cyan(req.relative_uri) + ' ' + chalk.yellow(resp.status[:3]))
+
 # Falcon api
-api = application = falcon.API(middleware=[HandleCORS()])
+api = application = falcon.API(middleware=[HandleCORS(), ResponseLoggerMiddleware()])
 
 # Routes
 api.add_route('/meta', MetaResource())
@@ -39,3 +46,5 @@ api.add_route('/market/list', GetMarketsResource())
 # Vault
 api.add_route('/vault/get', GetVaultResource())
 
+cacher = CacherModel()
+cacher.cache()

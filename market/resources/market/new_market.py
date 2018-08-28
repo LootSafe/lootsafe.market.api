@@ -14,7 +14,6 @@ class NewMarketResource(object):
 
         new_market = None
 
-        print(config.get('DEFAULT', 'APIKEY'))
         if body.get('api_key') == config.get('DEFAULT', 'APIKEY'):
             new_market = market.register_market(body.get('name'), body.get('address'), body.get('token_type'))
             if new_market:
