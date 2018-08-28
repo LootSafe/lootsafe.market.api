@@ -82,7 +82,7 @@ class CacherModel:
             listing_id = event.args.id
             listings_table = db['listings']
             listings = listings_table.find({'id': listing_id})
-            if listings.count() > 0 and listings[0].get('status') is not 1:
+            if listings.count() > 0 and listings[0].get('fulfilled_at') is None:
                 print(chalk.cyan('[CACHER]') + '(' + chalk.green(
                     'Event: ListingFulfilled') + ') - Listing has been fulfilled, listing id: ' + str(listing_id))
                 db['listings'].update_one({
@@ -91,7 +91,7 @@ class CacherModel:
                     {
                         '$set': {
                             'status': 1,
-                            'fulfilled_at': time.time() % 60
+                            'fulfilled_at': time.time()
                         }
                     }, upsert=False)
 

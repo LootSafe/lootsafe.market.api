@@ -102,6 +102,6 @@ class MarketModel:
 
         volume = 0
         for listing in listings:
-            volume += listing.get('value')
+            volume += int(listing.get('value'))
 
         return volume
