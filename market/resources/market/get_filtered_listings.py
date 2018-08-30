@@ -35,10 +35,12 @@ class GetFilteredListingsResource(object):
                 sort_by = body.get('sort_by')
                 order = body.get('order')
 
+            skip = body.get('skip') or 0
+
             if 'limit' in body:
-                listings = market.get_listings_filtered(find_filter, body.get('limit'), sort_by, order)
+                listings = market.get_listings_filtered(find_filter, skip, body.get('limit'), sort_by, order)
             else:
-                listings = market.get_listings_filtered(find_filter)
+                listings = market.get_listings_filtered(find_filter, skip)
 
             doc = {
                 'message': 'Listings fetched.',

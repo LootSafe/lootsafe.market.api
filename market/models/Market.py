@@ -64,7 +64,7 @@ class MarketModel:
         listings = listings_table.find({'market': self.contract_address}).limit(int(config.get('DB', 'LIMIT')))
         return self.clean(listings)
 
-    def get_listings_filtered(self, filter_obj, limit=config.get('DB', 'LIMIT'), sort_by='date', order='ascending'):
+    def get_listings_filtered(self, filter_obj, skip=0, limit=config.get('DB', 'LIMIT'), sort_by='date', order='ascending'):
         """ Get all listings by a specific filter """
 
         filter_obj['market'] = self.contract_address
@@ -73,8 +73,8 @@ class MarketModel:
             limit = config.get('DB', 'LIMIT')
 
         listings_table = db['listings']
-        pymongo_order = pymongo.ASCENDING if order == 'ascending' else pymongo.DESCENDING
-        listings = listings_table.find(filter_obj).sort(sort_by, pymongo_order).limit(int(limit))
+        pymongo_order = pymongo.DESCENDING if order == 'DESCENDING' else pymongo.ASCENDING
+        listings = listings_table.find(filter_obj).sort( '_id', -1).skip(skip).limit(int(limit))
         return self.clean(listings)
 
     def get_base_pair(self):

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65bceb3f-7df4-4c03-adab-c244eee786f5" name="Default" comment="n">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/market/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/build/contracts/Cellar.json" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/build/contracts/Cellar.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/build/contracts/EIP20.json" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/build/contracts/EIP20.json" afterDir="false" />
@@ -15,8 +16,9 @@
       <change beforePath="$PROJECT_DIR$/market/core_contracts/test/1_market_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/test/1_market_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/truffle-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/core_contracts/truffle.js" beforeDir="false" afterPath="$PROJECT_DIR$/market/core_contracts/truffle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/models/Cacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/models/Cacher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market/models/Market.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/models/Market.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/resources/market/get_listings.py" beforeDir="false" afterPath="$PROJECT_DIR$/market/resources/market/get_listings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,41 +44,41 @@
     <session id="-385170621">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="22" />
           <entry key="gitmodules" value="5" />
-          <entry key="ini" value="385" />
+          <entry key="ini" value="389" />
           <entry key="js" value="6054" />
           <entry key="md" value="1176" />
-          <entry key="py" value="9702" />
+          <entry key="py" value="11387" />
           <entry key="sh" value="94" />
-          <entry key="sol" value="1338" />
+          <entry key="sol" value="1341" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ini" value="385" />
+          <entry key="Ini" value="389" />
           <entry key="JavaScript" value="6054" />
           <entry key="Markdown" value="1176" />
           <entry key="PLAIN_TEXT" value="123" />
-          <entry key="Python" value="9702" />
-          <entry key="Solidity file" value="1338" />
+          <entry key="Python" value="11387" />
+          <entry key="Solidity file" value="1341" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,9 +89,9 @@
           <entry key="js" value="25" />
           <entry key="json" value="6" />
           <entry key="md" value="3" />
-          <entry key="py" value="42" />
+          <entry key="py" value="44" />
           <entry key="sh" value="2" />
-          <entry key="sol" value="26" />
+          <entry key="sol" value="28" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -100,8 +102,8 @@
           <entry key="JavaScript" value="25" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="42" />
-          <entry key="Solidity file" value="26" />
+          <entry key="Python" value="44" />
+          <entry key="Solidity file" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -112,45 +114,35 @@
         <entry file="file://$PROJECT_DIR$/market/config.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/models/Market.py">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Migrations.sol">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1973">
-              <caret line="99" column="23" lean-forward="true" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="543">
+              <caret line="48" column="90" selection-start-line="48" selection-start-column="90" selection-end-line="48" selection-end-column="90" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/market/models/Cacher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2024">
-              <caret line="88" column="36" lean-forward="true" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="13" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1535448144327" expanded="true" signature="423:424" ph="..." />
-                <marker date="1535448144327" expanded="true" signature="1146:1152" ph="..." />
-                <marker date="1535448144327" expanded="true" signature="1167:4752" ph="..." />
+                <marker date="1535585295087" expanded="true" signature="423:424" ph="..." />
+                <marker date="1535585295087" expanded="true" signature="858:863" ph="..." />
+                <marker date="1535585295087" expanded="true" signature="1146:1152" ph="..." />
+                <marker date="1535585295087" expanded="true" signature="1167:4752" ph="..." />
               </folding>
             </state>
           </provider>
@@ -159,26 +151,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/resources/market/get_filtered_listings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="421">
+              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/models/Market.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="69" column="52" lean-forward="true" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1535612944571" expanded="true" signature="3037:3043" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/market/resources/market/get_listings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/resources/market/get_markets.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="391">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,7 +185,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/resources/market/new_market.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="276">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
@@ -259,7 +258,6 @@
         <option value="$PROJECT_DIR$/.gitmodules" />
         <option value="$PROJECT_DIR$/cacher/modules/token_typefinder.js" />
         <option value="$PROJECT_DIR$/cacher/db/models.js" />
-        <option value="$PROJECT_DIR$/market/resources/market/get_listings.py" />
         <option value="$PROJECT_DIR$/market/resources/market/get_base.py" />
         <option value="$PROJECT_DIR$/market/resources/market/get_markets.py" />
         <option value="$PROJECT_DIR$/market/core_contracts/contracts/lib/SafeMath.sol" />
@@ -267,19 +265,20 @@
         <option value="$PROJECT_DIR$/market/core_contracts/contracts/Market.sol" />
         <option value="$PROJECT_DIR$/market/core_contracts/contracts/lib/Cellar.sol" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol" />
-        <option value="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" />
         <option value="$PROJECT_DIR$/market/resources/vault/get_vault.py" />
         <option value="$PROJECT_DIR$/market/core_contracts/test/1_market_test.js" />
         <option value="$PROJECT_DIR$/market/core_contracts/truffle.js" />
         <option value="$PROJECT_DIR$/market/core_contracts/truffle-config.js" />
         <option value="$PROJECT_DIR$/market/core_contracts/migrations/2_deploy_contracts.js" />
         <option value="$PROJECT_DIR$/cacher/cacher.js" />
-        <option value="$PROJECT_DIR$/market/config.ini" />
         <option value="$PROJECT_DIR$/market/resources/market/new_market.py" />
         <option value="$PROJECT_DIR$/market/app.py" />
-        <option value="$PROJECT_DIR$/market/models/Market.py" />
+        <option value="$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol" />
         <option value="$PROJECT_DIR$/market/models/Cacher.py" />
+        <option value="$PROJECT_DIR$/market/config.ini" />
+        <option value="$PROJECT_DIR$/market/resources/market/get_filtered_listings.py" />
+        <option value="$PROJECT_DIR$/market/models/Market.py" />
+        <option value="$PROJECT_DIR$/market/resources/market/get_listings.py" />
       </list>
     </option>
   </component>
@@ -295,11 +294,11 @@
       <path value="$PROJECT_DIR$/node_modules/ws/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="y" value="396" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="184" />
+    <option name="y" value="24" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -325,7 +324,26 @@
               <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
               <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
               <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="core_contracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lootsafe.market.api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lootsafe.market.api" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,10 +399,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="396" width="1920" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1826411" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18498169" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -397,7 +415,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.37934667" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" weight="0.28761062" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" visible="true" weight="0.23721436" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32923833" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -513,9 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Migrations.sol">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/market/core_contracts/migrations/1_initial_migration.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -543,13 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2047">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -626,17 +634,35 @@
     <entry file="file://$PROJECT_DIR$/market/core_contracts/build/contracts/EIP20.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cacher/cacher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cacher/cacher.js" />
     <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/lib/Cellar.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/resources/market/get_markets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/resources/market/new_market.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -654,70 +680,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/resources/market/get_filtered_listings.py">
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Migrations.sol">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/core_contracts/contracts/Vault.sol">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="543">
+          <caret line="48" column="90" selection-start-line="48" selection-start-column="90" selection-end-line="48" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/resources/market/get_listings.py">
+    <entry file="file://$PROJECT_DIR$/market/models/Cacher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/resources/market/get_markets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/resources/market/new_market.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="13" />
+          <folding>
+            <marker date="1535585295087" expanded="true" signature="423:424" ph="..." />
+            <marker date="1535585295087" expanded="true" signature="858:863" ph="..." />
+            <marker date="1535585295087" expanded="true" signature="1146:1152" ph="..." />
+            <marker date="1535585295087" expanded="true" signature="1167:4752" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/market/config.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/app.py">
+    <entry file="file://$PROJECT_DIR$/market/resources/market/get_filtered_listings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="421">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/market/models/Market.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1973">
-          <caret line="99" column="23" lean-forward="true" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+        <state relative-caret-position="290">
+          <caret line="69" column="52" lean-forward="true" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <marker date="1535612944571" expanded="true" signature="3037:3043" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/models/Cacher.py">
+    <entry file="file://$PROJECT_DIR$/market/resources/market/get_listings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="88" column="36" lean-forward="true" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+        <state relative-caret-position="391">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1535448144327" expanded="true" signature="423:424" ph="..." />
-            <marker date="1535448144327" expanded="true" signature="1146:1152" ph="..." />
-            <marker date="1535448144327" expanded="true" signature="1167:4752" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
