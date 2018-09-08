@@ -22,6 +22,10 @@ from market.resources.market.get_filtered_listings import GetFilteredListingsRes
 from market.resources.market.get_daily_volume import GetDailyVolumeResource
 from market.resources.market.new_market import NewMarketResource
 from market.resources.market.get_markets import GetMarketsResource
+from market.resources.market.get_last_sell import GetLastSellResource
+from market.resources.market.get_lowest_ask import GetLowestAskResource
+from market.resources.market.get_last_ten import GetLastTenResource
+from market.resources.market.get_history import GetHistoryResponse
 # Vault imports
 from market.resources.vault.get_vault import GetVaultResource
 
@@ -43,6 +47,10 @@ api.add_route('/market/listings/filtered', GetFilteredListingsResource())
 api.add_route('/market/volume', GetDailyVolumeResource())
 api.add_route('/market/new', NewMarketResource())
 api.add_route('/market/list', GetMarketsResource())
+api.add_route('/market/lastsell', GetLastSellResource())
+api.add_route('/market/lowestask', GetLowestAskResource())
+api.add_route('/market/lastten', GetLastTenResource())
+api.add_route('/market/history', GetHistoryResponse())
 # Vault
 api.add_route('/vault/get', GetVaultResource())
 
