@@ -18,7 +18,7 @@ parsimonious==0.8.0
 py-solc==3.1.0
 pycryptodome==3.6.4
 python-mimeparse==1.6.0
-requests==2.19.1
+requests==2.20.0
 rlp==1.0.1
 semantic-version==2.6.0
 six==1.11.0
